@@ -17,9 +17,9 @@
 
 ## 依赖
 - Minecraft **1.21.11**
-- Fabric Loader ≥ **0.19.3**
-- Fabric API
-- 可选：Mod Menu + Cloth Config（提供配置界面；不装也能正常运行）
+- [Fabric Loader](https://fabricmc.net/use/) ≥ **0.19.3**
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- 可选：[Mod Menu](https://modrinth.com/mod/modmenu) + [Cloth Config](https://modrinth.com/mod/cloth-config)（提供配置界面；不装也能正常运行）
 
 ## 安装
 将 `build/libs/Real-time EnchantmentTable-1.0.0.jar` 放入 `.minecraft/mods/` 即可。

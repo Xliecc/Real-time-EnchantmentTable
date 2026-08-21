@@ -17,9 +17,9 @@ Adds no new items, blocks, or recipes — purely a client-side visual enhancemen
 
 ## Dependencies
 - Minecraft **1.21.11**
-- Fabric Loader ≥ **0.19.3**
-- Fabric API
-- Optional: Mod Menu + Cloth Config (provide the config screen; the mod runs fine without them)
+- [Fabric Loader](https://fabricmc.net/use/) ≥ **0.19.3**
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- Optional: [Mod Menu](https://modrinth.com/mod/modmenu) + [Cloth Config](https://modrinth.com/mod/cloth-config) (provide the config screen; the mod runs fine without them)
 
 ## Installation
 Put `build/libs/Real-time EnchantmentTable-1.0.0.jar` into `.minecraft/mods/`.
