@@ -8,8 +8,9 @@
 		"Xliecc"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/",
-		"sources": "https://github.com/Xliecc/Real-time-EnchantmentTable"
+		"homepage": "https://github.com/Xliecc/Real-time-EnchantmentTable",
+		"sources": "https://github.com/Xliecc/Real-time-EnchantmentTable",
+		"issues": "https://github.com/Xliecc/Real-time-EnchantmentTable/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/enchantment-table/icon.png",
