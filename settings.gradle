@@ -1,0 +1,13 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}
+
+// 产物名（jar 文件名）——保持带空格的人类可读名，与 mods 部署及发行命名一致
+rootProject.name = 'Real-time EnchantmentTable'

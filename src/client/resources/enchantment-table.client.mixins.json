@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dafdaf.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EnchantmentScreenHandlerMixin",
+		"EnchantingTableBlockEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

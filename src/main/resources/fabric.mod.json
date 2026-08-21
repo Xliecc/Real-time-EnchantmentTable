@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantment-table",
+	"version": "${version}",
+	"name": "Real-time EnchantmentTable",
+	"description": "在附魔台上方以3D的形式实时预览其中物品，并且拥有丝滑的动画与大量自定义配置",
+	"authors": [
+		"Xliecc"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/",
+		"sources": "https://github.com/Xliecc/Real-time-EnchantmentTable"
+	},
+	"license": "MIT",
+	"icon": "assets/enchantment-table/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dafdaf.EnchantmentTable"
+		],
+		"client": [
+			"dafdaf.client.EnchantmentTableClient"
+		],
+		"modmenu": [
+			"dafdaf.client.config.PreviewModMenu"
+		]
+	},
+	"mixins": [
+		"enchantment-table.mixins.json",
+		{
+			"config": "enchantment-table.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
